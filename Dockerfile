@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/openshift3/logging-fluentd
+FROM registry.access.redhat.com/openshift3/logging-fluentd:v3.7
 
 RUN echo $HOME
 RUN mkdir -p $HOME
